@@ -2,7 +2,7 @@ import random
 print("¡Bienvenido a Piedra, Papel o Tijeras!")
 
 opciones = ["piedra", "papel", "tijeras"]
-jugar_de_nuevo = True
+jugar_de_nuevo = True #Variable booleana actúa como controlador del bucle
 
 puntaje_jugador = 0
 puntaje_sistema = 0
@@ -30,6 +30,6 @@ while jugar_de_nuevo:
     
     respuesta = input("Quieres jugar otra vez? (si/no):")
     if respuesta != "si":
-        jugar_de_nuevo = False
+        jugar_de_nuevo = False #Variable booleana
         
 print ("Gracias por jugar!")
